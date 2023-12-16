@@ -3,6 +3,16 @@
   --very-light: #ececec;
 }
 
+@font-face {
+  font-family: Varela;
+  src: url(/font/VarelaRound-Regular.woff2);
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url(/font/Inconsolata-Regular.woff2);
+}
+
 .w-checkbox {
   margin-bottom: 5px;
   padding-left: 20px;
