@@ -4,7 +4,7 @@ date: 2023-12-16
 month: Dec '23
 art: img/1200x1200bf-60.jpg
 artist: Joshua Burnside
-year: 2017
+released: 2017
 style: Folk/Rock
 tracks: 10
 runtime: 35 mins
