@@ -192,13 +192,14 @@ margin: 0rem !important;
         <h2 class="english-bit">【by <a href="https://well-made.uk" target="_blank" class="blank-link">Ben Found</a>】</h2>
       </div>
       <div class="quick-stack">
+        {{ range first 4 (where .Data.Pages "Type" "post") }}
         <div data-w-id="30d69c2c-a70c-3689-b540-1dce36b7714f" style="opacity:0" class="section_music_album">
           <div class="vinyl-case">
             <div class="vinyl-case_cover">
               <div class="post_title_container">
                 <div class="post_title_container-copy"></div>
-                <h2 class="post_title">Dec &#x27;23</h2>
-              </div><img src="images/1200x1200bf-60.jpg" loading="lazy" alt="">
+                <h2 class="post_title">{{ .Month }}</h2>
+              </div><img src="{{.Art}}" loading="lazy" alt="">
             </div>
             <div class="album-art-container">
               <div class="cd-inner"></div>
@@ -207,25 +208,25 @@ margin: 0rem !important;
           <div class="album-metadata">
             <div id="w-node-_118338a5-680c-f11b-f588-26a8b67d1ea1-125d48ac">
               <h3 id="w-node-_1d9788e3-97db-7501-d8de-bcd5f7fe5721-125d48ac" class="metadata_label">Album</h3>
-              <div class="metadata-content">EPHRATA</div>
+              <div class="metadata-content">{{ .Title }}</div>
             </div>
             <div id="w-node-_961de205-737e-c7f1-78d8-ea6be56f87ad-125d48ac">
               <h3 id="w-node-_961de205-737e-c7f1-78d8-ea6be56f87ae-125d48ac" class="metadata_label">Summary</h3>
-              <p class="metadata-content">Contemporary Irish folk music, with a production that feels like it&#x27;s straight out of its Pennsylvania namesake. Standout tracks include Tunnels, Pt. 2 for its grungy guitar-driven gnarl, Holllllogram&#x27;s wandering and wistful folksy melodies and retro production, and 26th Street for a story-based arrangement, and ghostly and atmospheric string sections. Lyrically, think Johnny Flynn&#x27;s timeless story-telling; magical yet modern fables of love, belonging and being, without cloying or self-indulgence. This album&#x27;s title rings with the same frequency as the music: magical, other-worldly, yet strangely grounded.</p>
+              <p class="metadata-content">{{ .Content }}</p>
             </div>
             <div id="w-node-ac36bdce-a625-d8b8-9717-e6845fa06ba9-125d48ac">
               <h3 id="w-node-ac36bdce-a625-d8b8-9717-e6845fa06baa-125d48ac" class="metadata_label">Artist</h3>
-              <div class="metadata-content">Joshua Burnside</div>
+              <div class="metadata-content">{{.Artist}}</div>
             </div>
             <div id="w-node-e2c29b10-ccc9-b016-3d14-1548aef3c932-125d48ac">
               <div class="grid">
                 <div>
                   <h3 id="w-node-e2c29b10-ccc9-b016-3d14-1548aef3c933-125d48ac" class="metadata_label">Year</h3>
-                  <div class="metadata-content">2017</div>
+                  <div class="metadata-content">{{ .Released }}</div>
                 </div>
                 <div>
                   <h3 class="metadata_label">Style</h3>
-                  <div class="metadata-content">Folk-rock</div>
+                  <div class="metadata-content">{{ .Style }}</div>
                 </div>
               </div>
             </div>
@@ -233,20 +234,20 @@ margin: 0rem !important;
               <div class="grid">
                 <div>
                   <h3 id="w-node-ba6b1a6c-4ce8-52ea-db50-cedaa726e61e-125d48ac" class="metadata_label">Tracks</h3>
-                  <div class="metadata-content">10</div>
+                  <div class="metadata-content">{{ .Tracks }}</div>
                 </div>
                 <div>
                   <h3 class="metadata_label">Time</h3>
-                  <div class="metadata-content">35 mins</div>
+                  <div class="metadata-content">{{ .Runtime }}</div>
                 </div>
               </div>
             </div>
             <div id="w-node-_898e1514-c252-ac53-331b-46e7c6f9bcf2-125d48ac">
               <h3 id="w-node-_898e1514-c252-ac53-331b-46e7c6f9bcf3-125d48ac" class="metadata_label">Production</h3>
-              <div class="metadata-content">Mike Mormecha, Phil D&#x27;Alton, Caolan Austin</div>
+              <div class="metadata-content">{{ .Production }}</div>
             </div>
           </div>
-        </div>
+        </div>{{ end }}
       </div>
     </main>
   </div>
