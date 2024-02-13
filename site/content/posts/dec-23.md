@@ -1,17 +1,17 @@
 ---
-title: Shelter
-date: 2024-01-04
-month: Jan '24
-art: img/whdrnjqxm4jwc_600-682595574.jpg
-artist: Olivia Chaney
-released: 2018
-style: Folk
+title: EPHRATA
+date: 2023-12-16
+month: Dec '23
+art: img/1200x1200bf-60.jpg
+artist: Joshua Burnside
+released: 2017
+style: Folk/Rock
 tracks: 10
-runtime: 44 mins
-production: Thomas Bartlett
+runtime: 35 mins
+production: Mike Mormecha, Phil D'Alton, Caolan Austin
 ---
-First heard this in an artist/maker centre in Leeds. I made my friend Shazam it for me. It's the kind of thing that can be playing in the background and you'd never notice it, but if you're in the right mood for reflection, it hits you like a ton of bricks.
+Contemporary Irish folk music, with a production that feels like it's straight out of the US (much like the album's namesake, Ephrata, Pennsylvania). Standout tracks include Tunnels, Pt. 2 for its grungy guitar-driven gnarl, Holllllogram's wandering and wistful folksy melodies and retro production, and 26th Street for a story-based arrangement, and ghostly and atmospheric string sections.
 
-The guitar is consistent yet somehow always distinct. It feels like an ongoing story. It made me think of my Father, and the man I wish he had been. I wrote a song about it after listening.
+Lyrically, think Johnny Flynn's timeless story-telling; magical yet modern fables of love, belonging and being, without cloying or self-indulgence. This album's title rings with the same frequency as the music: magical, other-worldly, yet strangely grounded.
 
-I wore my headphones while working in the garden with her songs on repeat for a full day. It  continued on repeat for the next two days. It's a great passenger on a life journey.
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=826785523/size=large/bgcol=ffffff/linkcol=f171a2/tracklist=false/artwork=none/transparent=true/" seamless><a href="https://joshuaburnside.bandcamp.com/album/ephrata">EPHRATA by Joshua Burnside</a></iframe>
