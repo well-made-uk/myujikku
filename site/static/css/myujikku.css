@@ -1378,17 +1378,13 @@ figcaption {
   grid-column-gap: 1.5rem;
   grid-row-gap: 1rem;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   display: grid;
 }
 
 .album-metadata > div:first-child, .album-metadata > div:nth-child(2) {
-  grid-column: span 2
-}
-
-.album-metadata > div:first-child(7) {
-  grid-column: span 4
+  grid-column: span 3
 }
 
 .metadata_label {
