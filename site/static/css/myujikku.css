@@ -1383,7 +1383,7 @@ figcaption {
   display: grid;
 }
 
-.album-metadata > div:first-child, .album-metadata > div:nth-child(2) {
+.album-metadata > div:first-child {
   grid-column: span 3
 }
 
